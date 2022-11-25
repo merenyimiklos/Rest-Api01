@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gyártó"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:id="@+id/editTextGyarto"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Modell"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:id="@+id/editTextModell"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Üzembehelyezés éve"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:id="@+id/editTextUzembe"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Felvesz"
+        android:textSize="20sp"
+        android:id="@+id/buttonFelvesz"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frissít"
+        android:textSize="20sp"
+        android:id="@+id/buttonFrissit"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewEredmeny"
+        android:textSize="20sp"
+        android:scrollbars="vertical"/>
+
+</LinearLayout>
